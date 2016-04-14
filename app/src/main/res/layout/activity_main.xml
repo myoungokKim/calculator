@@ -8,12 +8,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="kr.hs.emirim.cheese0414.calculator.MainActivity"
-    android:id="@+id/edit_num1">
+    >
 
     <EditText
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/edit_num1"
         android:layout_alignParentTop="true"
         android:textSize="20sp"
         android:inputType="numberDecimal" />
@@ -22,7 +22,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:id="@+id/edit_num2"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/edit_num1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textSize="20sp" />
@@ -68,7 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/str_result"
-        android:id="@+id/textView"
+        android:id="@+id/text_result"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:textSize="30sp"
